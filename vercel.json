@@ -1,10 +1,5 @@
 {
   "buildCommand": "cd website && npm install && npm run build",
   "outputDirectory": "website/dist",
-  "framework": "vite",
-  "projectSettings": {
-    "buildCommand": "cd website && npm run build",
-    "outputDirectory": "website/dist",
-    "nodeVersion": "18.x"
-  }
+  "framework": "vite"
 }
