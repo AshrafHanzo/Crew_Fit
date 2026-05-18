@@ -43,14 +43,16 @@
 }
 
 .navbar__logo-img {
-  height: 50px;
+  height: 45px;
   width: auto;
   object-fit: contain;
   transition: transform var(--transition-fast);
+  mix-blend-mode: screen;
+  filter: brightness(1.1) contrast(1.1);
 }
 
 .navbar__logo:hover .navbar__logo-img {
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 
 .navbar__links {

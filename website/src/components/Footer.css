@@ -27,14 +27,16 @@
 .footer__logo-fit { color: var(--text-primary); }
 
 .footer__logo-img {
-  height: 60px;
+  height: 55px;
   width: auto;
   object-fit: contain;
   transition: transform var(--transition-fast);
+  mix-blend-mode: screen;
+  filter: brightness(0.95) contrast(1.15);
 }
 
 .footer__logo:hover .footer__logo-img {
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 
 .footer__tagline {
