@@ -26,6 +26,17 @@
 .footer__logo-crew { color: var(--brand-blue); }
 .footer__logo-fit { color: var(--text-primary); }
 
+.footer__logo-img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  transition: transform var(--transition-fast);
+}
+
+.footer__logo:hover .footer__logo-img {
+  transform: scale(1.05);
+}
+
 .footer__tagline {
   font-size: 0.9rem;
   color: var(--text-tertiary);

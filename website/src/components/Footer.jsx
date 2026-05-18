@@ -8,8 +8,7 @@ export default function Footer() {
         <div className="footer__grid">
           <div className="footer__brand">
             <a href="#home" className="footer__logo">
-              <span className="footer__logo-crew">CREW</span>
-              <span className="footer__logo-fit">FIT</span>
+              <img src="/images/logo.jpeg" alt="Crew Fit Logo" className="footer__logo-img" />
             </a>
             <p className="footer__tagline">
               Premium custom apparel for corporates, events, sports teams, and startup brands.

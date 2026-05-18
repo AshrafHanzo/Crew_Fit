@@ -37,8 +37,7 @@ export default function Navbar() {
     >
       <div className="navbar__container container">
         <a href="#home" className="navbar__logo">
-          <span className="navbar__logo-crew">CREW</span>
-          <span className="navbar__logo-fit">FIT</span>
+          <img src="/images/logo.jpeg" alt="Crew Fit Logo" className="navbar__logo-img" />
         </a>
 
         <div className="navbar__links">
