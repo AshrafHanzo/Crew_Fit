@@ -37,7 +37,7 @@ export default function Navbar() {
     >
       <div className="navbar__container container">
         <a href="#home" className="navbar__logo">
-          <img src="/images/logo.png" alt="Crew Fit Logo" className="navbar__logo-img" />
+          <img src="/images/logo2.jpeg" alt="Crew Fit Logo" className="navbar__logo-img" />
         </a>
 
         <div className="navbar__links">
